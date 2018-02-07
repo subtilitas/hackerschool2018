@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="3" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="3" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1206,6 +1206,20 @@ Standard decoupling cap</description>
 <pad name="P$16" x="2" y="-14" drill="0.6" shape="offset" rot="R180"/>
 </package>
 <package name="RC6CHAN">
+<wire x1="-3.81" y1="10.16" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="10.16" width="0.127" layer="21"/>
+<wire x1="3.81" y1="10.16" x2="-3.81" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="11.43" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="11.43" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
+<pad name="GND@1" x="-2.54" y="8.89" drill="1"/>
+<pad name="GND@2" x="-2.54" y="6.35" drill="1"/>
+<pad name="GND@3" x="-2.54" y="3.81" drill="1"/>
+<pad name="GND@4" x="-2.54" y="1.27" drill="1"/>
+<pad name="GND@5" x="-2.54" y="-1.27" drill="1"/>
+<pad name="GND@6" x="-2.54" y="-3.81" drill="1"/>
 <pad name="P$1" x="2.54" y="8.89" drill="1"/>
 <pad name="P$2" x="2.54" y="6.35" drill="1"/>
 <pad name="P$3" x="2.54" y="3.81" drill="1"/>
@@ -1218,28 +1232,11 @@ Standard decoupling cap</description>
 <pad name="VCC@4" x="0" y="1.27" drill="1"/>
 <pad name="VCC@5" x="0" y="-1.27" drill="1"/>
 <pad name="VCC@6" x="0" y="-3.81" drill="1"/>
-<pad name="GND@1" x="-2.54" y="8.89" drill="1"/>
-<pad name="GND@2" x="-2.54" y="6.35" drill="1"/>
-<pad name="GND@3" x="-2.54" y="3.81" drill="1"/>
-<pad name="GND@4" x="-2.54" y="1.27" drill="1"/>
-<pad name="GND@5" x="-2.54" y="-1.27" drill="1"/>
-<pad name="GND@6" x="-2.54" y="-3.81" drill="1"/>
-<wire x1="-3.81" y1="10.16" x2="-3.81" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="10.16" width="0.127" layer="21"/>
-<wire x1="3.81" y1="10.16" x2="-3.81" y2="10.16" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="11.43" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="1.27" y1="11.43" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
 <text x="-1.905" y="10.541" size="1.27" layer="21" rot="R90">-</text>
 <text x="0.635" y="10.668" size="1.27" layer="21" rot="R90">+</text>
 <text x="3.175" y="10.668" size="1.27" layer="21" rot="R90">/</text>
 </package>
 <package name="BOARD2BOARD">
-<wire x1="0" y1="5" x2="2" y2="5" width="0.127" layer="21"/>
-<wire x1="2" y1="5" x2="2" y2="-5" width="0.127" layer="21"/>
-<wire x1="2" y1="-5" x2="0" y2="-5" width="0.127" layer="21"/>
 <smd name="P$1" x="0" y="4" dx="2.5428" dy="0.65" layer="1"/>
 <smd name="P$2" x="0" y="3" dx="3" dy="0.65" layer="1"/>
 <smd name="P$3" x="0" y="2" dx="3" dy="0.65" layer="1"/>
@@ -1282,6 +1279,7 @@ Standard decoupling cap</description>
 <pad name="P$16" x="7" y="0" drill="0.3" diameter="0.7112" shape="square"/>
 <pad name="P$17" x="8" y="0" drill="0.3" diameter="0.7112" shape="square"/>
 <pad name="P$18" x="9" y="0" drill="0.3" diameter="0.7112" shape="square"/>
+<text x="1.3208" y="0.508" size="1.016" layer="21">&gt;NAME</text>
 <polygon width="0" layer="1" pour="cutout">
 <vertex x="-0.75" y="2.25"/>
 <vertex x="10.75" y="2.25"/>
@@ -1306,9 +1304,22 @@ Standard decoupling cap</description>
 <vertex x="10.75" y="-0.25"/>
 <vertex x="-0.75" y="-0.25"/>
 </polygon>
-<text x="1.3208" y="0.508" size="1.016" layer="21">&gt;NAME</text>
 </package>
 <package name="RC8CHAN">
+<wire x1="-3.81" y1="10.16" x2="-3.81" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-10.16" x2="-1.27" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-10.16" x2="1.27" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-10.16" x2="3.81" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-10.16" x2="3.81" y2="10.16" width="0.127" layer="21"/>
+<wire x1="3.81" y1="10.16" x2="-3.81" y2="10.16" width="0.127" layer="21"/>
+<pad name="GND@1" x="-2.54" y="8.89" drill="1"/>
+<pad name="GND@2" x="-2.54" y="6.35" drill="1"/>
+<pad name="GND@3" x="-2.54" y="3.81" drill="1"/>
+<pad name="GND@4" x="-2.54" y="1.27" drill="1"/>
+<pad name="GND@5" x="-2.54" y="-1.27" drill="1"/>
+<pad name="GND@6" x="-2.54" y="-3.81" drill="1"/>
+<pad name="GND@7" x="-2.54" y="-6.35" drill="1"/>
+<pad name="GND@8" x="-2.54" y="-8.89" drill="1"/>
 <pad name="P$1" x="2.54" y="8.89" drill="1"/>
 <pad name="P$2" x="2.54" y="6.35" drill="1"/>
 <pad name="P$3" x="2.54" y="3.81" drill="1"/>
@@ -1325,20 +1336,6 @@ Standard decoupling cap</description>
 <pad name="VCC@6" x="0" y="-3.81" drill="1"/>
 <pad name="VCC@7" x="0" y="-6.35" drill="1"/>
 <pad name="VCC@8" x="0" y="-8.89" drill="1"/>
-<pad name="GND@1" x="-2.54" y="8.89" drill="1"/>
-<pad name="GND@2" x="-2.54" y="6.35" drill="1"/>
-<pad name="GND@3" x="-2.54" y="3.81" drill="1"/>
-<pad name="GND@4" x="-2.54" y="1.27" drill="1"/>
-<pad name="GND@5" x="-2.54" y="-1.27" drill="1"/>
-<pad name="GND@6" x="-2.54" y="-3.81" drill="1"/>
-<pad name="GND@7" x="-2.54" y="-6.35" drill="1"/>
-<pad name="GND@8" x="-2.54" y="-8.89" drill="1"/>
-<wire x1="-3.81" y1="10.16" x2="-3.81" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="-10.16" x2="-1.27" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-10.16" x2="1.27" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-10.16" x2="3.81" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="10.16" width="0.127" layer="21"/>
-<wire x1="3.81" y1="10.16" x2="-3.81" y2="10.16" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1365,13 +1362,13 @@ Standard decoupling cap</description>
 <wire x1="2.54" y1="25.4" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="2.54" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="5.08" length="middle" direction="pwr"/>
 <pin name="P$1" x="7.62" y="22.86" length="middle" rot="R180"/>
 <pin name="P$2" x="7.62" y="20.32" length="middle" rot="R180"/>
 <pin name="P$3" x="7.62" y="17.78" length="middle" rot="R180"/>
 <pin name="P$4" x="7.62" y="15.24" length="middle" rot="R180"/>
 <pin name="P$5" x="7.62" y="12.7" length="middle" rot="R180"/>
 <pin name="P$6" x="7.62" y="10.16" length="middle" rot="R180"/>
-<pin name="GND" x="-12.7" y="5.08" length="middle" direction="pwr"/>
 <pin name="VCC" x="-12.7" y="7.62" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="BOARD2BOARD">
@@ -1404,6 +1401,7 @@ Standard decoupling cap</description>
 <wire x1="2.54" y1="25.4" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-2.54" x2="-7.62" y2="25.4" width="0.254" layer="94"/>
+<pin name="GND" x="-12.7" y="0" length="middle" direction="pwr"/>
 <pin name="P$1" x="7.62" y="22.86" length="middle" rot="R180"/>
 <pin name="P$2" x="7.62" y="20.32" length="middle" rot="R180"/>
 <pin name="P$3" x="7.62" y="17.78" length="middle" rot="R180"/>
@@ -1412,7 +1410,6 @@ Standard decoupling cap</description>
 <pin name="P$6" x="7.62" y="10.16" length="middle" rot="R180"/>
 <pin name="P$7" x="7.62" y="7.62" length="middle" rot="R180"/>
 <pin name="P$8" x="7.62" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="-12.7" y="0" length="middle" direction="pwr"/>
 <pin name="VCC" x="-12.7" y="2.54" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
