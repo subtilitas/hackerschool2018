@@ -9215,6 +9215,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R5" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="3k"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="1k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="3k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="3k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9334,6 +9336,8 @@ R_PROG=2k : I_CHG=500mA</text>
 <instance part="R5" gate="G$1" x="102.87" y="208.28" rot="MR90"/>
 <instance part="GND26" gate="1" x="102.87" y="195.58" rot="MR0"/>
 <instance part="R7" gate="G$1" x="142.24" y="213.36" rot="MR0"/>
+<instance part="R8" gate="G$1" x="52.07" y="43.18" rot="MR90"/>
+<instance part="R9" gate="G$1" x="59.69" y="43.18" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -10206,9 +10210,11 @@ R_PROG=2k : I_CHG=500mA</text>
 <label x="50.8" y="147.32" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="31.75" x2="67.31" y2="31.75" width="0.1524" layer="91"/>
-<label x="67.31" y="31.75" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="76.2" y1="31.75" x2="52.07" y2="31.75" width="0.1524" layer="91"/>
+<label x="52.07" y="31.75" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="52.07" y1="38.1" x2="52.07" y2="31.75" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="144.78" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
@@ -10246,9 +10252,11 @@ R_PROG=2k : I_CHG=500mA</text>
 <label x="50.8" y="144.78" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="76.2" y1="34.29" x2="67.31" y2="34.29" width="0.1524" layer="91"/>
-<label x="67.31" y="34.29" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="76.2" y1="34.29" x2="59.69" y2="34.29" width="0.1524" layer="91"/>
+<label x="59.69" y="34.29" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="59.69" y1="38.1" x2="59.69" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="142.24" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
@@ -10574,6 +10582,13 @@ R_PROG=2k : I_CHG=500mA</text>
 <wire x1="76.2" y1="67.31" x2="69.85" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="69.85" y1="67.31" x2="69.85" y2="82.55" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="52.07" y1="48.26" x2="59.69" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="48.26" x2="59.69" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="67.31" x2="69.85" y2="67.31" width="0.1524" layer="91"/>
+<junction x="59.69" y="48.26"/>
+<junction x="69.85" y="67.31"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="FB"/>
