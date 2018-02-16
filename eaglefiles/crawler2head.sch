@@ -7958,11 +7958,11 @@ Solder type</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="JMP1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value="0R-JUMPB"/>
-<part name="JMP2" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value="0R-JUMPB"/>
-<part name="JMP3" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value="0R-JUMPB"/>
-<part name="JMP4" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value="0R-JUMPB"/>
-<part name="JMP5" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value="0R-JUMPB"/>
+<part name="A1" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value=""/>
+<part name="A2" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value=""/>
+<part name="A3" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value=""/>
+<part name="A4" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value=""/>
+<part name="A0" library="jump-0r-smd" library_urn="urn:adsk.eagle:library:251" deviceset="0R-JUMP" device="B" package3d_urn="urn:adsk.eagle:package:15387/1" value="A0"/>
 </parts>
 <sheets>
 <sheet>
@@ -7995,16 +7995,16 @@ Solder type</description>
 <instance part="JP1" gate="A" x="383.54" y="139.7"/>
 <instance part="GND1" gate="1" x="309.88" y="134.62"/>
 <instance part="P+1" gate="1" x="312.42" y="170.18"/>
-<instance part="JMP1" gate="-0R" x="322.58" y="152.4"/>
-<instance part="JMP1" gate="G$2" x="320.04" y="154.94"/>
-<instance part="JMP2" gate="-0R" x="327.66" y="147.32"/>
-<instance part="JMP2" gate="G$2" x="325.12" y="149.86"/>
-<instance part="JMP3" gate="-0R" x="322.58" y="142.24"/>
-<instance part="JMP3" gate="G$2" x="320.04" y="144.78"/>
-<instance part="JMP4" gate="-0R" x="327.66" y="137.16"/>
-<instance part="JMP4" gate="G$2" x="325.12" y="139.7"/>
-<instance part="JMP5" gate="-0R" x="317.5" y="157.48"/>
-<instance part="JMP5" gate="G$2" x="314.96" y="160.02"/>
+<instance part="A1" gate="-0R" x="322.58" y="152.4"/>
+<instance part="A1" gate="G$2" x="320.04" y="154.94"/>
+<instance part="A2" gate="-0R" x="327.66" y="147.32"/>
+<instance part="A2" gate="G$2" x="325.12" y="149.86"/>
+<instance part="A3" gate="-0R" x="322.58" y="142.24"/>
+<instance part="A3" gate="G$2" x="320.04" y="144.78"/>
+<instance part="A4" gate="-0R" x="327.66" y="137.16"/>
+<instance part="A4" gate="G$2" x="325.12" y="139.7"/>
+<instance part="A0" gate="-0R" x="317.5" y="157.48"/>
+<instance part="A0" gate="G$2" x="314.96" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -8085,21 +8085,21 @@ Solder type</description>
 <pinref part="JP1" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="JMP1" gate="-0R" pin="1"/>
-<pinref part="JMP5" gate="-0R" pin="3"/>
+<pinref part="A1" gate="-0R" pin="1"/>
+<pinref part="A0" gate="-0R" pin="3"/>
 <wire x1="322.58" y1="154.94" x2="317.5" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="317.5" y1="154.94" x2="309.88" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="154.94" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
 <junction x="317.5" y="154.94"/>
-<pinref part="JMP2" gate="-0R" pin="3"/>
-<pinref part="JMP3" gate="-0R" pin="1"/>
+<pinref part="A2" gate="-0R" pin="3"/>
+<pinref part="A3" gate="-0R" pin="1"/>
 <wire x1="309.88" y1="144.78" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="144.78" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="144.78" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
 <junction x="322.58" y="144.78"/>
 <junction x="309.88" y="144.78"/>
-<pinref part="JMP4" gate="-0R" pin="3"/>
+<pinref part="A4" gate="-0R" pin="3"/>
 <wire x1="327.66" y1="134.62" x2="314.96" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="134.62" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
@@ -8126,19 +8126,19 @@ Solder type</description>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="JMP5" gate="-0R" pin="1"/>
+<pinref part="A0" gate="-0R" pin="1"/>
 <pinref part="P+1" gate="1" pin="V+"/>
 <wire x1="317.5" y1="160.02" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="160.02" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="JMP2" gate="-0R" pin="1"/>
-<pinref part="JMP1" gate="-0R" pin="3"/>
+<pinref part="A2" gate="-0R" pin="1"/>
+<pinref part="A1" gate="-0R" pin="3"/>
 <wire x1="327.66" y1="149.86" x2="322.58" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="149.86" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="149.86" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 <junction x="322.58" y="149.86"/>
 <junction x="312.42" y="160.02"/>
-<pinref part="JMP4" gate="-0R" pin="1"/>
-<pinref part="JMP3" gate="-0R" pin="3"/>
+<pinref part="A4" gate="-0R" pin="1"/>
+<pinref part="A3" gate="-0R" pin="3"/>
 <wire x1="327.66" y1="139.7" x2="322.58" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="139.7" x2="312.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="139.7" x2="312.42" y2="149.86" width="0.1524" layer="91"/>
@@ -8358,7 +8358,7 @@ Solder type</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A4"/>
-<pinref part="JMP4" gate="-0R" pin="2"/>
+<pinref part="A4" gate="-0R" pin="2"/>
 <wire x1="340.36" y1="134.62" x2="330.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="134.62" x2="330.2" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -8368,7 +8368,7 @@ Solder type</description>
 <pinref part="U1" gate="G$1" pin="A3"/>
 <wire x1="340.36" y1="137.16" x2="332.74" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="137.16" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="JMP3" gate="-0R" pin="2"/>
+<pinref part="A3" gate="-0R" pin="2"/>
 <wire x1="327.66" y1="142.24" x2="325.12" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8376,7 +8376,7 @@ Solder type</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="A2"/>
 <wire x1="340.36" y1="139.7" x2="332.74" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="JMP2" gate="-0R" pin="2"/>
+<pinref part="A2" gate="-0R" pin="2"/>
 <wire x1="332.74" y1="139.7" x2="330.2" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="142.24" x2="330.2" y2="147.32" width="0.1524" layer="91"/>
 </segment>
@@ -8384,7 +8384,7 @@ Solder type</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A1"/>
-<pinref part="JMP1" gate="-0R" pin="2"/>
+<pinref part="A1" gate="-0R" pin="2"/>
 <wire x1="340.36" y1="142.24" x2="330.2" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="152.4" x2="325.12" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -8392,7 +8392,7 @@ Solder type</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A0"/>
-<pinref part="JMP5" gate="-0R" pin="2"/>
+<pinref part="A0" gate="-0R" pin="2"/>
 <wire x1="340.36" y1="144.78" x2="327.66" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="157.48" x2="320.04" y2="157.48" width="0.1524" layer="91"/>
 </segment>
