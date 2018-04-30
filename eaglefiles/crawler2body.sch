@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1257,28 +1257,28 @@ Standard decoupling cap</description>
 <smd name="P$18" x="0" y="-4" dx="3" dy="0.65" layer="16"/>
 </package>
 <package name="BOARD2BOARD_SLOT">
-<wire x1="-0.5" y1="0" x2="10.5" y2="0" width="0.0254" layer="46"/>
-<wire x1="10.5" y1="0" x2="10.5" y2="2" width="0.0254" layer="46"/>
-<wire x1="10.5" y1="2" x2="-0.5" y2="2" width="0.0254" layer="46"/>
-<wire x1="-0.5" y1="2" x2="-0.5" y2="0" width="0.0254" layer="46"/>
-<pad name="P$1" x="1" y="2" drill="0.3" diameter="0.7112"/>
-<pad name="P$2" x="2" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$3" x="3" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$4" x="4" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$5" x="5" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$6" x="6" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$7" x="7" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$8" x="8" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$9" x="9" y="2" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$10" x="1" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$11" x="2" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$12" x="3" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$13" x="4" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$14" x="5" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$15" x="6" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$16" x="7" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$17" x="8" y="0" drill="0.3" diameter="0.7112" shape="square"/>
-<pad name="P$18" x="9" y="0" drill="0.3" diameter="0.7112" shape="square"/>
+<wire x1="-0.5" y1="0.1" x2="10.5" y2="0.1" width="0.0254" layer="46"/>
+<wire x1="10.5" y1="0.1" x2="10.5" y2="1.9" width="0.0254" layer="46"/>
+<wire x1="10.5" y1="1.9" x2="-0.5" y2="1.9" width="0.0254" layer="46"/>
+<wire x1="-0.5" y1="1.9" x2="-0.5" y2="0.1" width="0.0254" layer="46"/>
+<pad name="P$1" x="1" y="2.3" drill="0.3" diameter="0.7112"/>
+<pad name="P$2" x="2" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$3" x="3" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$4" x="4" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$5" x="5" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$6" x="6" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$7" x="7" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$8" x="8" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$9" x="9" y="2.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$10" x="1" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$11" x="2" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$12" x="3" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$13" x="4" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$14" x="5" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$15" x="6" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$16" x="7" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$17" x="8" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
+<pad name="P$18" x="9" y="-0.3" drill="0.3" diameter="0.7112" shape="square"/>
 <text x="1.3208" y="0.508" size="1.016" layer="21">&gt;NAME</text>
 <polygon width="0" layer="1" pour="cutout">
 <vertex x="-0.75" y="2.25"/>
